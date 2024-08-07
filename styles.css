@@ -76,6 +76,9 @@ header span{
     font-size: 60px;
     font-weight: 700;
 }
+#contenedor-menu-hamburguesa{
+    display: none;
+}
 
 #noticias{
     display: flex;
@@ -259,6 +262,13 @@ h1{
 #contenedor-efecto{
     display: none;
 }
+.attribution{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 14px;
+}
 
 
 
@@ -291,6 +301,7 @@ h1{
 
     #contenedor-menu-hamburguesa{
         z-index: 900;
+        display: flex;
         /* border: solid red 2px; */
     }
 
@@ -385,6 +396,10 @@ h1{
         width: 100vw;
         /* backdrop-filter: brightness(0.5); */
         background-color: rgba(0, 0, 0, 0.554);
+    }
+    .attribution{
+        position: relative;
+
     }
 }
     
